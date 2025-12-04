@@ -1,0 +1,24 @@
+.main-container {
+  height: 100vh;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+}
+
+.full-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+}
+
+.picture-container {
+  height: 50%;
+  background-color: blueviolet;
+  margin: 3rem;
+}
+
+.lower-text-container {
+  height: 50%;
+  background-color: brown;
+}

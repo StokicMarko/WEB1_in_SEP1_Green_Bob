@@ -9,13 +9,64 @@
       rel="stylesheet"
     />
     <link href="css/index.css" type="text/css" rel="stylesheet" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/a66dba3cb9.js"
       crossorigin="anonymous"
     ></script>
-    <script src="js/index.js"></script>
   </head>
 
   <body>
+    <div class="main-container">
+      <div class="icon-bar-container">
+        <i class="fa-solid fa-bars" onclick="openSideMenu()"></i>
+      </div>
+      <div class="side-nav" id="side-nav">
+        <div class="top-nav-container"></div>
+        <div class="list-nav-container">
+          <ul>
+            <li id="home-item" onclick="changeCurrentPage('home')">Home</li>
+            <li id="about-item" onclick="changeCurrentPage('about')">
+              About Cloverville
+            </li>
+            <li id="activity-item" onclick="changeCurrentPage('activity')">
+              Our actions
+            </li>
+            <li id="trade-item" onclick="changeCurrentPage('trade')">
+              Trade Offers
+            </li>
+            <li id="contact-item" onclick="changeCurrentPage('contact')">
+              Contact Us
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="full-container">
+        <div class="picture-container">
+          <p>
+            Optio optio perspiciatis deleniti veritatis neque reprehenderit.
+            Voluptatem vitae quos enim quia sit porro. Et dicta perspiciatis
+            fugiat voluptatem perferendis. Ea praesentium officia ut voluptatem.
+            Soluta temporibus aut libero autem. Quam tempore ut quia voluptas et
+            odio et. Sit est repellat nemo vero. Aspernatur esse omnis soluta
+            cupiditate qui dolorem rerum. Voluptatibus aliquid qui non pariatur
+            veniam ullam illo praesentium. Iste animi nisi voluptas. Eligendi
+            quam recusandae occaecati. Quas nesciunt excepturi ipsa. Beatae
+            laborum nihil fuga aut vel. Architecto perferendis et neque
+            voluptatem. Dolores tenetur veritatis amet repellendus ad commodi.
+            Impedit repellat maiores quibusdam cupiditate sint cupiditate soluta
+            maxime. Modi at accusamus ea autem nisi nemo aut at. Cumque autem et
+            voluptatem ex in magnam. Consequatur omnis facere velit animi
+            molestias ea aut. Praesentium omnis libero aut eveniet. Qui expedita
+            velit neque exercitationem sint odit omnis. Reiciendis qui neque aut
+            quibusdam. Et veniam praesentium sunt id id cumque. Distinctio vel
+            dolor distinctio dolore dolores.
+          </p>
+        </div>
+        <div class="lower-text-container"></div>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
