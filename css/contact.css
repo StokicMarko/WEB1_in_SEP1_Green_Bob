@@ -1,0 +1,91 @@
+:root {
+    --foggreen: #F1F3E0;
+    --herbgreen: #D2DCB6;
+    --sagegreen: #A1BC98;
+    --forestgreen: #778873;
+}
+
+/* Global styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    background-color: var(--foggreen);
+    color: #333;
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Section */
+.header-container {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.header-container h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--forestgreen);
+}
+
+.header-container h3 {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #444;
+}
+
+/* Grid for Developers */
+.developers-grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    grid-gap: 60px 120px;
+    margin-top: 70px;
+}
+
+/* Developer Card */
+.person-container {
+    display: flex;
+    align-items: last baseline;
+    gap: 20px;
+}
+
+.person-photo-container img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 2px solid var(--sagegreen);
+}
+
+.person-description-container p {
+    margin: 4px 0;
+    font-size: 16px;
+}
+
+.person-description-container a {
+    color: #004e9a;
+    text-decoration: none;
+}
+
+.person-description-container a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+    .developers-grid {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+    
+    .person-container {
+        justify-content: center;
+    }
+}
