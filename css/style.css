@@ -5,12 +5,19 @@
     --forestgreen: #778873;
 }
 
+
 /* REMOVE DEFAULT STYLE*/
 * {
-  margin: 0px;
-  padding: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--foggreen);
+  color: #333;
+  line-height: 1.6;
 }
 
 ul {
@@ -22,14 +29,16 @@ ul {
 /* SIDE BAR STYLE */
 .side-nav {
   background-color: aqua;
-  position: absolute;
+  top: 0;
+  left: 0;
+  position: fixed;
   height: 100%;
   width: 20%;
   visibility: hidden;
 }
 
 .icon-bar-container {
-  position: absolute;
+  position: fixed;
   top: 1rem;
   left: 1rem;
   cursor: pointer;
