@@ -1,24 +1,33 @@
 let isSideOpen = false;
-let currentPage = "home";
-//Possible values: home | about | activity | trade | contact
+
+let currentPage = localStorage.getItem("currentPage") || "home";
 
 setItemByName(currentPage, true);
 
 function setItemByName(name, isSelected) {
-  let item = getItemByName(name);
+  const item = getItemByName(name);
+
+  if (!item) return;
 
   if (isSelected) item.style.backgroundColor = "red";
   else item.style.removeProperty("background-color");
 }
 
-function changeCurrentPage(page) {
+function changeCurrentPage(page, url) {
   setItemByName(currentPage, false);
+
   currentPage = page;
+  localStorage.setItem("currentPage", page);
+
   setItemByName(currentPage, true);
+
+  if (url && url.length > 0) {
+    window.location.href = url;
+  }
 }
 
 function openSideMenu() {
-  let sideNav = document.getElementById("side-nav");
+  const sideNav = document.getElementById("side-nav");
 
   if (isSideOpen) sideNav.style.visibility = "hidden";
   else sideNav.style.visibility = "visible";
