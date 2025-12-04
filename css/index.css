@@ -1,28 +1,4 @@
-/* ===========================
-   Root Colors
-=========================== */
-:root {
-  --foggreen: #F1F3E0;
-  --herbgreen: #D2DCB6;
-  --sagegreen: #A1BC98;
-  --forestgreen: #778873;
-}
 
-/* ===========================
-   Global Reset
-=========================== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Inter", sans-serif;
-  background-color: var(--foggreen);
-  color: #333;
-  line-height: 1.6;
-}
 
 /* ===========================
    Layout Containers

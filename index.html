@@ -9,14 +9,41 @@
       rel="stylesheet"
     />
     <link href="css/index.css" type="text/css" rel="stylesheet" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/a66dba3cb9.js"
       crossorigin="anonymous"
     ></script>
-    <script src="js/index.js"></script>
   </head>
   <body>
     <div class="main-container">
+
+      <!-- START SIDE BAR -->
+      <div class="icon-bar-container">
+        <i class="fa-solid fa-bars" onclick="openSideMenu()"></i>
+      </div>
+      <div class="side-nav" id="side-nav">
+        <div class="top-nav-container"></div>
+        <div class="list-nav-container">
+          <ul>
+            <li id="home-item" onclick="changeCurrentPage('home')">Home</li>
+            <li id="about-item" onclick="changeCurrentPage('about')">
+              About Cloverville
+            </li>
+            <li id="activity-item" onclick="changeCurrentPage('activity')">
+              Our actions
+            </li>
+            <li id="trade-item" onclick="changeCurrentPage('trade')">
+              Trade Offers
+            </li>
+            <li id="contact-item" onclick="changeCurrentPage('contact')">
+              Contact Us
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- END SIDE BAR -->
+
       <div class="header-photo-container">
         <img src="images/header-photo.jpg" alt="Picture of Cloverville"> 
       </div>
@@ -44,5 +71,9 @@
         </p>
       </div>
     </div>
+
+    <!-- SCRIPTS -->
+    <script src="js/index.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
