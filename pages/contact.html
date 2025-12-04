@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Us</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../css/contact.css" type="text/css" rel="stylesheet" />
+    <link href="../css/style.css" type="text/css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/a66dba3cb9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- START SIDE BAR -->
+      <div class="icon-bar-container">
+        <i class="fa-solid fa-bars" onclick="openSideMenu()"></i>
+      </div>
+      <div class="side-nav" id="side-nav">
+        <div class="top-nav-container"></div>
+        <div class="list-nav-container">
+          <ul>
+            <li
+              id="home-item"
+              onclick="changeCurrentPage('home', '../index.html')"
+            >
+              Home
+            </li>
+            <li
+              id="about-item"
+              onclick="changeCurrentPage('about', 'story.html')"
+            >
+              About Cloverville
+            </li>
+            <li
+              id="activity-item"
+              onclick="changeCurrentPage('activity', 'activity.html')"
+            >
+              Our actions
+            </li>
+            <li
+              id="trade-item"
+              onclick="changeCurrentPage('trade', 'tradeOffer.html')"
+            >
+              Trade Offers
+            </li>
+            <li
+              id="contact-item"
+              onclick="changeCurrentPage('contact', 'contact.html')"
+            >
+              Contact Us
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- END SIDE BAR -->
+
+      <div class="header-container">
+        <h1>Contact us</h1>
+        <h3>Our Developers Team</h3>
+      </div>
+      <div class="developers-grid">
+        <div class="person-container">
+          <div class="person-photo-container">
+            <img src="../images/black-icon.png" alt="developer photo" />
+          </div>
+          <div class="person-description-container">
+            <p>Marko Stokic</p>
+            <p><a href="mailto:361748@via.dk">mail:361748@via.dk</a></p>
+            <p>Phone: +4567830972</p>
+          </div>
+        </div>
+
+        <div class="person-container">
+          <div class="person-photo-container">
+            <img src="../images/black-icon.png" alt="developer photo" />
+          </div>
+          <div class="person-description-container">
+            <p>Prabesh Adhikari</p>
+            <p><a href="mailto:362365@via.dk">mail:362365@via.dk</a></p>
+            <p>Phone: +4583958390</p>
+          </div>
+        </div>
+
+        <div class="person-container">
+          <div class="person-photo-container">
+            <img src="../images/black-icon.png" alt="developer photo" />
+          </div>
+          <div class="person-description-container">
+            <p>Sofiia Levchenko</p>
+            <p><a href="mailto:362933@via.dk">mail:362933@via.dk</a></p>
+            <p>Phone: +4505693245</p>
+          </div>
+        </div>
+
+        <div class="person-container">
+          <div class="person-photo-container">
+            <img src="../images/black-icon.png" alt="developer photo" />
+          </div>
+          <div class="person-description-container">
+            <p>Volodymyr Neka</p>
+            <p><a href="mailto:364343@via.dk">mail:364343@via.dk</a></p>
+            <p>Phone: +4571399280</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="../js/script.js"></script>
+  </body>
+</html>
