@@ -1,3 +1,10 @@
+:root{
+    --foggreen: #F1F3E0;
+    --herbgreen: #D2DCB6;
+    --sagegreen: #A1BC98;
+    --forestgreen: #778873;
+}
+
 /* REMOVE DEFAULT STYLE*/
 * {
   margin: 0px;
