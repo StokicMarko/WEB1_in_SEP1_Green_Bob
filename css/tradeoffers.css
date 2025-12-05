@@ -1,0 +1,22 @@
+/* ===========================
+   Page Title
+=========================== */
+.header-container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.header-container h {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--forestgreen);
+  font-family: "Luckiest Guy", cursive;
+}
+
+.header-container h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--forestgreen);
+}
+
