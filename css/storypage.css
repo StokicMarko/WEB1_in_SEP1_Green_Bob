@@ -2,9 +2,10 @@ body{
   background-color:#a1bc98;
 }
 .main-container{
-  margin:20px 0 auto;
+  margin:0 auto;
   background-color: white;
   width:90%;
+  border-radius: 10px;
   
   
 }
@@ -21,6 +22,9 @@ h1{
   display: flex;
   flex-direction: column;
   row-gap: 15px;
+  box-sizing: border-box;
+  padding:10px;
+  
  
 }
 .image-section{
