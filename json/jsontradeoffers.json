@@ -1,0 +1,175 @@
+{
+  "tradeoffers": [
+    {
+      "id": "781001",
+      "Title": "Window cleaning",
+      "date": "02-09-2024",
+      "status": "available",
+      "offerBy": {
+        "id": "440101",
+        "name": "Lucas",
+        "surname": "Merrington",
+        "address": "12 Oakridge Lane"
+      },
+      "assignTo": {
+        "id": "",
+        "name": "",
+        "surname": "",
+        "address": ""
+      }
+    },
+
+    {
+      "id": "781002",
+      "Title": "Garden maintenance",
+      "date": "05-09-2024",
+      "status": "available",
+      "offerBy": {
+        "id": "440102",
+        "name": "Sophia",
+        "surname": "Hartwell",
+        "address": "33 Birchview Avenue"
+      },
+      "assignTo": {
+        "id": "",
+        "name": "",
+        "surname": "",
+        "address": ""
+      }
+    },
+
+    {
+      "id": "781003",
+      "Title": "Carpet cleaning",
+      "date": "10-09-2024",
+      "status": "taken",
+      "offerBy": {
+        "id": "440103",
+        "name": "Mason",
+        "surname": "Deveraux",
+        "address": "221 Ridgepoint Drive"
+      },
+      "assignTo": {
+        "id": "900110003",
+        "name": "Liam",
+        "surname": "Serovich",
+        "address": "18 Blossom Hill"
+      }
+    },
+
+    {
+      "id": "781004",
+      "Title": "Furniture assembly",
+      "date": "12-09-2024",
+      "status": "available",
+      "offerBy": {
+        "id": "440104",
+        "name": "Amelia",
+        "surname": "Rowland",
+        "address": "9 Meadowstone Court"
+      },
+      "assignTo": {
+        "id": "",
+        "name": "",
+        "surname": "",
+        "address": ""
+      }
+    },
+
+    {
+      "id": "781005",
+      "Title": "Interior painting",
+      "date": "14-09-2024",
+      "status": "available",
+      "offerBy": {
+        "id": "440105",
+        "name": "William",
+        "surname": "Harstow",
+        "address": "104 Pinecrest Way"
+      },
+      "assignTo": {
+        "id": "",
+        "name": "",
+        "surname": "",
+        "address": ""
+      }
+    },
+
+    {
+      "id": "781006",
+      "Title": "Roof inspection",
+      "date": "15-09-2024",
+      "status": "available",
+      "offerBy": {
+        "id": "440106",
+        "name": "Henry",
+        "surname": "Callister",
+        "address": "58 Brookline Terrace"
+      },
+      "assignTo": {
+        "id": "",
+        "name": "",
+        "surname": "",
+        "address": ""
+      }
+    },
+
+    {
+      "id": "781007",
+      "Title": "Gutter cleaning",
+      "date": "16-09-2024",
+      "status": "taken",
+      "offerBy": {
+        "id": "440107",
+        "name": "Chloe",
+        "surname": "Fenderson",
+        "address": "87 Highland Loop"
+      },
+      "assignTo": {
+        "id": "3280983209",
+        "name": "Sasha",
+        "surname": "Verkhov",
+        "address": "91 Riverbend Lane"
+      }
+    },
+
+    {
+      "id": "781008",
+      "Title": "Plumbing diagnostics",
+      "date": "18-09-2024",
+      "status": "available",
+      "offerBy": {
+        "id": "440108",
+        "name": "Aiden",
+        "surname": "Marfield",
+        "address": "74 Canyon Ridge"
+      },
+      "assignTo": {
+        "id": "",
+        "name": "",
+        "surname": "",
+        "address": ""
+      }
+    },
+
+    {
+      "id": "781009",
+      "Title": "Home electrical check",
+      "date": "20-09-2024",
+      "status": "available",
+      "offerBy": {
+        "id": "440109",
+        "name": "Emily",
+        "surname": "Wexford",
+        "address": "301 Sunset Crest"
+      },
+      "assignTo": {
+        "id": "",
+        "name": "",
+        "surname": "",
+        "address": ""
+      }
+    }
+  ]
+}
+
