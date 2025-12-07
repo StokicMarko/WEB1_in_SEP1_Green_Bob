@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Trade Offers</title>
+    <title>Cloverville</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Luckiest+Guy&display=swap"
       rel="stylesheet"
     />
-    <link href="../css/tradeoffers.css" type="text/css" rel="stylesheet" />
     <link href="../css/style.css" type="text/css" rel="stylesheet" />
+    <link href="../css/activity.css" type="text/css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/a66dba3cb9.js"
       crossorigin="anonymous"
@@ -17,7 +17,6 @@
   </head>
   <body>
     <div class="main-container">
-
       <!-- START SIDE BAR -->
       <div class="icon-bar-container">
         <i class="fa-solid fa-bars" onclick="openSideMenu()"></i>
@@ -27,27 +26,37 @@
         <div class="list-nav-container">
           <ul>
             <li id="home-item" onclick="changeCurrentPage('home', '../index.html')">Home</li>
-            <li id="about-item" onclick="changeCurrentPage('about', '../story.html')">
+            <li
+              id="about-item"
+              onclick="changeCurrentPage('about', '../story.html')"
+            >
               About Cloverville
             </li>
-            <li id="activity-item" onclick="changeCurrentPage('greenactivities', 'greenactivites.html')">
+            <li
+              id="activity-item"
+              onclick="changeCurrentPage('greenactivities', 'greenactivites.html')"
+            >
               Last Week Progress 
             </li>
-            <li id="trade-item" onclick="changeCurrentPage('trade', 'tradeoffers.html')">
+            <li
+              id="trade-item"
+              onclick="changeCurrentPage('trade', 'tradeoffers.html')"
+            >
               Trade Offers
             </li>
-            <li id="contact-item" onclick="changeCurrentPage('contact', 'contact.html')">
+            <li
+              id="contact-item"
+              onclick="changeCurrentPage('contact', 'contact.html')"
+            >
               Contact Us
             </li>
           </ul>
         </div>
       </div>
       <!-- END SIDE BAR -->
-      <div class="header-container">
-        <h1>Trade Offers</h1>
-      </div>
+
     <!-- SCRIPTS -->
-    <script src="../js/tradeoffers.js"></script>
+    <script src="../js/activity.js"></script>
     <script src="../js/script.js"></script>
   </body>
 </html>
