@@ -8,8 +8,8 @@ function setItemByName(name, isSelected) {
   const item = getItemByName(name);
 
   if (!item) return;
-      
-  if (isSelected) item.style.backgroundColor = "red";
+
+  if (isSelected) item.style.backgroundColor = "#A1BC98";
   else item.style.removeProperty("background-color");
 }
 
