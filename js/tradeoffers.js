@@ -14,10 +14,11 @@ async function loadTradeOffers() {
             card.className = 'trade-offer-card';
 
             card.innerHTML = `
+                <div class="offer-status">${offer.status}</div>
                 <div class="offer-title">${offer.Title}</div>
-                <div class="offer-type">Type of offer</div>
-                <div class="offer-description">Amount of points</div>
-                <div class="offer-date">${offer.date}</div>
+                <div class="offer-type">Type: ${offer.type}</div>
+                <div class="offer-points">Points: ${offer.points}</div>
+                <div class="offer-date">${offer.date ?? ''}</div>
             `;
 
             container.appendChild(card);

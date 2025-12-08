@@ -3,6 +3,8 @@
     {
       "id": "781001",
       "Title": "Window cleaning",
+      "type": "service",
+      "points": "40",
       "date": "02-09-2024",
       "status": "available",
       "offerBy": {
@@ -22,6 +24,8 @@
     {
       "id": "781002",
       "Title": "Garden maintenance",
+      "type": "service",
+      "points": "25",
       "date": "05-09-2024",
       "status": "available",
       "offerBy": {
@@ -41,7 +45,8 @@
     {
       "id": "781003",
       "Title": "Carpet cleaning",
-      "date": "10-09-2024",
+      "type": "service",
+      "points": "40",
       "status": "taken",
       "offerBy": {
         "id": "440103",
@@ -60,6 +65,8 @@
     {
       "id": "781004",
       "Title": "Furniture assembly",
+      "type": "service",
+      "points": "30",
       "date": "12-09-2024",
       "status": "available",
       "offerBy": {
@@ -79,6 +86,8 @@
     {
       "id": "781005",
       "Title": "Interior painting",
+      "type": "service",
+      "points": "60",
       "date": "14-09-2024",
       "status": "available",
       "offerBy": {
@@ -98,6 +107,8 @@
     {
       "id": "781006",
       "Title": "Roof inspection",
+      "type": "service",
+      "points": "40",
       "date": "15-09-2024",
       "status": "available",
       "offerBy": {
@@ -117,6 +128,8 @@
     {
       "id": "781007",
       "Title": "Gutter cleaning",
+      "type": "service",
+      "points": "35",
       "date": "16-09-2024",
       "status": "taken",
       "offerBy": {
@@ -136,6 +149,8 @@
     {
       "id": "781008",
       "Title": "Plumbing diagnostics",
+      "type": "service",
+      "points": "30",
       "date": "18-09-2024",
       "status": "available",
       "offerBy": {
@@ -155,6 +170,8 @@
     {
       "id": "781009",
       "Title": "Home electrical check",
+      "type": "service",
+      "points": "20",
       "date": "20-09-2024",
       "status": "available",
       "offerBy": {
