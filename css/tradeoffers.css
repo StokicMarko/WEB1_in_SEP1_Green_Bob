@@ -32,7 +32,13 @@
   flex-direction: column;
   gap: 12px;
   transition: 0.2s ease-in-out;
-  position: relative;
+}
+
+/* Header Row - Title and Status */
+.offer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Card Content Styles */
@@ -42,7 +48,6 @@
   font-size: 20px;
   font-weight: 600;
   color: var(--darkgreen);
-  margin-bottom: 6px;
 }
 
 /* Offer Type Styles */
@@ -52,36 +57,49 @@
   margin-bottom: 4px;
 }
 
-/* Offer Description Styles */
-.offer-description {
+/* Status Styles */
+.offer-status {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 20px;
+  display: inline-block;
+  color: #fff;
+}
+
+.status-available {
+  background-color: #84bc86;
+}
+
+.status-taken {
+  background-color: #d69f51;
+}
+
+.status-completed {
+  background-color: #6fa7d6;
+}
+
+.status-cancelled {
+  display: none;
+}
+
+/* Points and Date Footer */
+.offer-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offer-points {
   font-size: 14px;
   color: var(--darkgreen);
-
+  font-weight: 500;
 }
-
-.offer-points{
-  font-size: 14px;
-  color: var(--mediumgreen);
-  font-style: italic;
-}
-
-.offer-status {
-  position: absolute;
-  top: 8px;
-  right: 10px;
-  font-size: 14px;
-  color: var(--mediumgreen);
-  font-style: italic;
-}
-
 
 .offer-date {
   font-size: 14px;
   color: var(--mediumgreen);
   font-style: italic;
-  grid-column: 2;
-  grid-row: 2;
-  align-self: end;
 }
 
 /* Responsive Design */
