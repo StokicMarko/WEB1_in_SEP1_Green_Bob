@@ -32,6 +32,7 @@
   flex-direction: column;
   gap: 12px;
   transition: 0.2s ease-in-out;
+  position: relative;
 }
 
 /* Card Content Styles */
@@ -57,6 +58,22 @@
   color: var(--darkgreen);
 
 }
+
+.offer-points{
+  font-size: 14px;
+  color: var(--mediumgreen);
+  font-style: italic;
+}
+
+.offer-status {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-size: 14px;
+  color: var(--mediumgreen);
+  font-style: italic;
+}
+
 
 .offer-date {
   font-size: 14px;
