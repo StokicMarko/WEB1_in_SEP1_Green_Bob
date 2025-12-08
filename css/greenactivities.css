@@ -1,0 +1,91 @@
+/* Green Activities Header Styles */
+.header-container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.header-container h1 {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--forestgreen);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Page layout */
+.activities-container {
+  width: 90%;
+  max-width: 900px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+/* Individual Activity Card Styles */
+.activity-card {
+  border: 2px solid var(--sagegreen);
+  border-radius: 10px;
+  padding: 18px 20px;
+  background: var(--herbgreen);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  align-items: start;
+  transition: 0.2s ease-in-out;
+}
+
+/* Activity Text Size */
+.activity-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+/* Activity Title Styles */
+.activity-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--darkgreen);
+  margin-bottom: 6px;
+}
+/* Activity Description Styles */
+.activity-description {
+  font-size: 14px;
+  color: var(--darkgreen);
+}
+
+.activity-date {
+  font-size: 14px;
+  color: var(--mediumgreen);
+  font-style: italic;
+  grid-column: 2;
+  grid-row: 2;
+  align-self: end;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 480px) {
+
+  .header-container h1 {
+    font-size: 28px;
+    color: var(--darkgreen)
+  }
+
+  .activity-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .activity-title {
+    font-size: 18px;
+  }
+
+  .activity-description{
+    font-size: 13px;
+  }
+
+
+}
+

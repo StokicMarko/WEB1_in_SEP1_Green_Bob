@@ -1,22 +1,97 @@
-/* ===========================
-   Page Title
-=========================== */
+/* Header Styles*/
 .header-container {
   margin-top: 40px;
   text-align: center;
-}
-
-.header-container h {
-  font-size: 3rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-  color: var(--forestgreen);
-  font-family: "Luckiest Guy", cursive;
 }
 
 .header-container h1 {
     font-size: 48px;
     font-weight: 600;
     color: var(--forestgreen);
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Page layout*/
+.trade-offers-container {
+  width: 900%;
+  max-width: 900px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Trade Offer Card Styles */
+.trade-offer-card {
+  border: 2px solid var(--sagegreen);
+  border-radius: 10px;
+  padding: 18px 20px;
+  background: var(--herbgreen);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: 0.2s ease-in-out;
+}
+
+/* Card Content Styles */
+
+/* Offer Title Styles */
+.offer-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--darkgreen);
+  margin-bottom: 6px;
+}
+
+/* Offer Type Styles */
+.offer-type {
+  font-size: 16px;
+  color: var(--darkgreen);
+  margin-bottom: 4px;
+}
+
+/* Offer Description Styles */
+.offer-description {
+  font-size: 14px;
+  color: var(--darkgreen);
+
+}
+
+.offer-date {
+  font-size: 14px;
+  color: var(--mediumgreen);
+  font-style: italic;
+  grid-column: 2;
+  grid-row: 2;
+  align-self: end;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .trade-offers-container {
+    grid-template-columns: 1fr;
+  }
+
+  .header-container h1 {
+    font-size: 28px;
+    color: var(--darkgreen);
+  }
+  .trade-offer-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .offer-title {
+    font-size: 18px;
+  }
+  
+  .offer-description {
+    font-size: 13px;
+  }
+
+  .offer-type {
+    font-size: 11px;
+  }
 }
 
