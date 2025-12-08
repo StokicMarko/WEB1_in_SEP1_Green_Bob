@@ -1,9 +1,9 @@
 body{
-  background-color:#a1bc98;
+  background:#F1F3E0;
 }
 .main-container{
   margin:0 auto;
-  background-color: white;
+  background-color:var(--herbgreen);
   width:75%;
   border-radius: 10px;
   
