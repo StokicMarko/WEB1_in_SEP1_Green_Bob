@@ -16,7 +16,7 @@
    <div class="main-container">
       <!-- START SIDE BAR -->
       <div class="icon-bar-container">
-        <i class="fa-solid fa-bars" onclick="openSideMenu()"></i>
+        <i class="fa-solid fa-bars" onclick="toggleSideMenu()"></i>
       </div>
       <div class="side-nav" id="side-nav">
         <div class="top-nav-container"></div>
@@ -29,7 +29,7 @@
               Home
             </li>
             <li
-              id="about-item"
+              id="story-item"
               onclick="changeCurrentPage('about', 'story.html')"
             >
               About Cloverville
@@ -55,6 +55,7 @@
           </ul>
         </div>
       </div>
+      <div class="overlay" id="overlay" onclick="closeSideMenu()"></div>
       <!-- END SIDE BAR -->
      <div class="center-container">
         <div class="first-section">
