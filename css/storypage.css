@@ -47,10 +47,10 @@ h1{
   font-size:1rem;
   font-family: sans-serif;
 }
- .ul li{
+ .list-container li{
   list-style-type: disc;
 }
-ul{
+.list-container{
   padding-left: 20px;
 }
   
