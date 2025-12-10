@@ -5,6 +5,12 @@
   --forestgreen: #778873;
 }
 
+.icon-bar-container {
+  position: fixed;
+  font-size: 30px;
+  color: var(--forestgreen);
+}
+
 /* REMOVE DEFAULT STYLE*/
 * {
   margin: 0;
