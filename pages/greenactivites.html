@@ -8,19 +8,13 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Luckiest+Guy&display=swap"
         rel="stylesheet"
     />
-        <script
-            src="https://kit.fontawesome.com/a66dba3cb9.js"
-            crossorigin="anonymous"></script>
-
     <link href="../css/greenactivities.css" type="text/css" rel="stylesheet"/>
     <link href="../css/style.css" type="text/css" rel="stylesheet"/>
-   
+    <script src="https://kit.fontawesome.com/a66dba3cb9.js" crossorigin="anonymous"></script>
 </head>
-
 
 <body>
 <div class="main-container">
-
     <!-- START SIDE BAR -->
     <div class="icon-bar-container">
         <i class="fa-solid fa-bars" onclick="toggleSideMenu()"></i>
@@ -32,6 +26,7 @@
                 <li id="home-item" onclick="changeCurrentPage('home', '../index.html')">Home</li>
                 <li id="story-item" onclick="changeCurrentPage('about', 'story.html')">About Cloverville</li>
                 <li id="activity-item" onclick="changeCurrentPage('greenactivities', 'greenactivites.html')">Last Week Progress</li>
+                <li id="communal-reward-item" onclick="changeCurrentPage('communal-reward', 'communal-reward.html')">Communal Goals</li>
                 <li id="trade-item" onclick="changeCurrentPage('trade', 'tradeoffers.html')">Trade Offers</li>
                 <li id="contact-item" onclick="changeCurrentPage('contact', 'contact.html')">Contact Us</li>
             </ul>
@@ -40,23 +35,17 @@
     <div class="overlay" id="overlay" onclick="closeSideMenu()"></div>
     <!-- END SIDE BAR -->
 
-
     <!--Header -->
     <div class="header-container">
         <h1>Last Week Progress</h1>
     </div>
 
     <!-- Activities Container, which will be pasted here by JS-->
-    <div class ="activities-container" id="activities-list"></div>
+    <div class="activities-container" id="activities-list"></div>
 
     <!-- JS SCRIPT -->
     <script src="../js/greenactivities.js"></script>
     <script src="../js/script.js"></script>
+</div>
 </body>
-
-
-
-
-
-
 </html>
