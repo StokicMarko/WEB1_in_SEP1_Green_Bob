@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cloverville</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../css/communal-reward.css" type="text/css" rel="stylesheet" />
+    <link href="../css/style.css" type="text/css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/a66dba3cb9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- START SIDE BAR -->
+      <div class="icon-bar-container">
+        <i class="fa-solid fa-bars" onclick="toggleSideMenu()"></i>
+      </div>
+      <div class="side-nav" id="side-nav">
+        <div class="top-nav-container"></div>
+        <div class="list-nav-container">
+          <ul>
+            <li id="home-item" onclick="changeCurrentPage('../home', '')">
+              Home
+            </li>
+            <li
+              id="story-item"
+              onclick="changeCurrentPage('about', 'story.html')"
+            >
+              About Cloverville
+            </li>
+            <li
+              id="activity-item"
+              onclick="changeCurrentPage('greenactivities', 'greenactivites.html')"
+            >
+              Last Week Progress
+            </li>
+            <li
+              id="communal-reward-item"
+              onclick="changeCurrentPage('communal-reward', 'communal-reward.html')"
+            >
+              Communal Goals
+            </li>
+            <li
+              id="trade-item"
+              onclick="changeCurrentPage('trade', 'tradeoffers.html')"
+            >
+              Trade Offers
+            </li>
+            <li
+              id="contact-item"
+              onclick="changeCurrentPage('contact', 'pages/contact.html')"
+            >
+              Contact Us
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="overlay" id="overlay" onclick="closeSideMenu()"></div>
+      <!-- END SIDE BAR -->
+
+      <div class="top-container">
+        <div class="points-banner-container">
+          <div class="points-banner">
+            <i class="fa-solid fa-leaf"></i>
+            <span id="total-points">0</span>
+            <span class="label">Community Points</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-container">
+        <div class="header-container">
+          <h1>Our Events</h1>
+        </div>
+
+        <div class="rewards-row" id="rewards-row"></div>
+      </div>
+    </div>
+    <!-- SCRIPTS -->
+    <script src="../js/communal-reward.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

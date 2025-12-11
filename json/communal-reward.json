@@ -1,0 +1,42 @@
+[
+  {
+    "id": "4c5fd840-72e3-4f18-9bd8-bc9cc66b9e1c",
+    "title": "Community Pizza Day",
+    "description": "A fun gathering where residents bake and share homemade pizzas using local ingredients.",
+    "pointsToUnlock": 50,
+    "isUnlocked": true,
+    "eventDate": "12-03-2025"
+  },
+  {
+    "id": "db597f6f-9590-4b30-85d7-fca7578cd1e3",
+    "title": "Town Square Refresh",
+    "description": "Residents collaborate to repaint benches, plant flowers, and brighten the town square.",
+    "pointsToUnlock": 100,
+    "isUnlocked": true,
+    "eventDate": "28-03-2025"
+  },
+  {
+    "id": "6068dbdb-1d81-45e5-857f-cd6c42512dd0",
+    "title": "Community Celebration Night",
+    "description": "A festive evening with music, home-cooked food, and activities celebrating achievements.",
+    "pointsToUnlock": 500,
+    "isUnlocked": false,
+    "eventDate": "05-04-2025"
+  },
+  {
+    "id": "fb440b4c-94b2-4dda-b403-1e5c7a0e1b94",
+    "title": "Neighborhood Beautification Day",
+    "description": "Residents join forces to decorate public areas, repaint fences, and create a welcoming environment.",
+    "pointsToUnlock": 1000,
+    "isUnlocked": false,
+    "eventDate": "17-04-2025"
+  },
+  {
+    "id": "3885025d-eaac-48ca-9a54-4bb5f3ccf4f3",
+    "title": "Local Farmer Appreciation Picnic",
+    "description": "A community picnic featuring fresh produce from local farmers and activities.",
+    "pointsToUnlock": 3000,
+    "isUnlocked": false,
+    "eventDate": "25-04-2025"
+  }
+]
